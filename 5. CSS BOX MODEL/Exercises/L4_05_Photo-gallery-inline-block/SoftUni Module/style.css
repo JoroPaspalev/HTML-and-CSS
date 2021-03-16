@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+html {
+    font-size: 13px;
+    line-height: 1.2;
+    font-family: Montserrat, serif;
+    color: rgb(70, 72, 82);
+}
+
+.module {
+    max-width: 350px;
+    max-height: 350px;
+    margin: auto;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.85);
+    display: inline-block;
+    margin: 20px;
+}
+
+section article h2 {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+section article p {
+    padding: 0 18px;
+}
+
+.fundamentals {
+    background: linear-gradient(90deg, rgba(78, 106, 141, 1) 0%, rgba(84, 129, 172, 1) 55%, rgba(94, 153, 211, 1) 100%);
+    color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-top: 40px;
+    padding: 15px 0;
+}
+
+.professional {
+    background: rgb(77, 66, 172);
+    background: linear-gradient(90deg, rgba(77, 66, 172, 1) 0%, rgba(107, 96, 200, 1) 54%, rgba(137, 132, 230, 1) 100%);
+    color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-top: 40px;
+    padding: 15px 0;
+}
+
+footer section {
+    display: inline-block;
+    width: 49%;
+    box-sizing: border-box;
+    border: none;
+}
+
+footer section p {
+    font-size: 11px;
+    padding: 0 0 10px 0;
+    margin-bottom: 0;
+}
+
+footer section h3 {
+    margin: 0;
+}
+
+.module-first {
+    border-right: 1px solid white;
+}

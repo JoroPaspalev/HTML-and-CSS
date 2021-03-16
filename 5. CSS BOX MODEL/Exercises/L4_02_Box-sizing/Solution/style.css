@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+}
+
+
+/*Reset all elements and after that to be with box-sizing: border-box*/
+
+* {
+    box-sizing: inherit;
+}
+
+section {
+    width: 250px;
+    height: 250px;
+    border: 3px dotted green;
+    margin: 100px auto;
+    text-align: center;
+}
+
+section p {
+    width: 100%;
+    padding: 20px;
+    border: 20px solid blue;
+}
+
+article p {
+    width: 500px;
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+}
+
+img {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
