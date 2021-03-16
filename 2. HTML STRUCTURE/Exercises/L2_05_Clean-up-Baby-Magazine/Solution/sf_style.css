@@ -1,0 +1,164 @@
+@import url("https://use.fontawesome.com/releases/v5.15.2/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+html {
+    font: 14px/1.15 "Lato", "Arial", Helvetica, sans-serif;
+    background-color: rgb(25, 48, 71);
+}
+
+body {
+    color: white;
+    background-color: rgb(25, 48, 71);
+    margin: 0;
+    padding: 0;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.article {
+    margin: 3.5em;
+}
+
+li {
+    list-style-type: none;
+    padding-bottom: 1.5em;
+}
+
+ol,
+ul {
+    margin-left: 0;
+    padding-left: 0;
+    color: rgb(208, 208, 214);
+}
+
+i {
+    font-size: 1.5em;
+    margin-right: 0.5em;
+    color: rgb(208, 208, 214);
+}
+
+img {
+    border-radius: 0.3em;
+    width: 90px;
+    height: 45px;
+}
+
+article>p>img {
+    margin: 2em 0;
+}
+
+img:nth-child(2) {
+    margin-left: 1em;
+}
+
+article>p {
+    color: rgb(145, 145, 142);
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.right {
+    float: right;
+    padding-top: 10px;
+}
+
+.logo {
+    height: 60px;
+    width: 150px;
+}
+
+.logo:hover {
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
+header {
+    padding-left: 3.5em;
+    padding-right: 8.5em;
+    background-color: rgb(35, 68, 101);
+}
+
+nav>ul>li>a {
+    color: rgb(145, 161, 178);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding-right: 1em;
+    font-size: 13px;
+}
+
+main {
+    background-image: linear-gradient(90deg, rgb(35, 68, 101, 0.9), rgba(12, 74, 136, 0.8)), url("./images/bgsf.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 470px;
+}
+
+.padding80 {
+    padding-left: 80px
+}
+
+.padding-h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 20px 0 10px 80px;
+    margin: 0;
+}
+
+.padding-h2 {
+    font-size: 24px;
+    font-weight: 200;
+    padding-left: 80px;
+    margin: 10px 0 5px 0;
+}
+
+.cutted {
+    width: 300px;
+}
+
+.people {
+    Width: 720px;
+    height: 280px;
+    padding-left: 200px;
+}
+
+.orange-button {
+    background-color: rgb(241, 152, 0);
+    color: white;
+    border-radius: 32px;
+    padding: 8px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-left: 90px;
+}
+
+.btn-orange-border {
+    border: 1px solid #ffa000;
+    color: #ffa000;
+    background-color: transparent;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 6px 15px;
+    border-radius: 50px;
+    margin-right: 20px;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+.float-top {
+    vertical-align: top;
+}

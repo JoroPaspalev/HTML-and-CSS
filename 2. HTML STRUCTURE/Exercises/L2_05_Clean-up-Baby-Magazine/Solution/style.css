@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "RobotoItalic";
+    src: url("../Roboto/Roboto-LightItalic.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "RobotoBold";
+    src: url("../Roboto/Roboto-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: Pangolin;
+    src: url("Pangolin-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: Jomhuria;
+    src: url("Jomhuria-Regular.ttf") format('truetype');
+}
+
+html {
+    font-size: 18px;
+    font-family: RobotoBold;
+    line-height: 1.5;
+}
+
+body {
+    background: rgb(219, 142, 42) url("/tesla.jpg") no-repeat top left;
+    opacity: 0.2;
+}
+
+h1 {
+    color: red;
+    font-family: 'RobotoItalic', serif;
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+article>p {
+    width: 50%;
+    height: 50px;
+    background-color: teal;
+    color: wheat;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+input {
+    display: block;
+    margin: 10px;
+    padding: 8px 15px;
+    border: 1px solid rgb(33, 169, 242);
+    border-radius: 120px;
+    outline: none;
+}
+
+div>p {
+    background-color: rgba(26, 26, 27, 0.1);
+    outline: none;
+    border: none;
+}
+
+div>p>a {
+    color: yellow;
+    text-decoration: none;
+}
+
+p {
+    text-shadow: 1px 1px 3px rgb(219, 142, 42);
+    background-color: rgba(3, 255, 3, 0.2);
+    cursor: not-allowed;
+    border: 1px solid red;
+    outline: 2px dashed brown
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(33, 169, 242);
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table {
+    margin-right: 0;
+    margin-left: auto;
+    width: 80%;
+}
+
+th,
+td {
+    width: 33.33%;
+}
