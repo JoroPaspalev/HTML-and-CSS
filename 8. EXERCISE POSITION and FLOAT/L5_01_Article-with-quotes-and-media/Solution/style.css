@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+html {
+    font-size: 16px;
+    line-height: 1.2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.main-section {
+    max-width: 60%;
+    margin: auto
+}
+
+.site-title {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.first-module-img {
+    float: right;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+    box-shadow: -3px 0px 22px -2px rgba(0, 0, 0, 0.75);
+    margin: 0 20px 20px 20px;
+}
+
+.third-module-img {
+    float: left;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+    box-shadow: -3px 0px 22px -2px rgba(0, 0, 0, 0.75);
+    margin: 0 20px 20px 0px;
+}
+
+.second-module-title,
+.third-module-title {
+    margin-top: 50px;
+}
+
+.second-module-blockquote {
+    float: right;
+    max-width: 45%;
+    border-left: 3px solid rgb(185, 184, 184);
+    color: rgb(121, 120, 120);
+    padding-left: 20px;
+    font-style: italic;
+    line-height: 1.8;
+    margin: 0 20px 20px 20px;
+}
+
+.blockquote-p {
+    margin-top: 0;
+}
+
+.author {
+    text-align: right;
+}

@@ -1,0 +1,89 @@
+@import url(https://use.fontawesome.com/releases/v5.15.2/css/all.css);
+body {
+    background: white;
+}
+
+ul,
+li {
+    display: inline-block;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    background-color: rgb(238, 238, 238);
+    border-radius: 50%;
+    padding: 5px;
+    color: white;
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+}
+
+.icon {
+    font-family: 'Font awesome 5 Brands';
+    font-size: 24px;
+    color: black;
+}
+
+.icon.facebook::before {
+    content: '\f082';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.facebook:hover::before {
+    color: rgb(59, 89, 152);
+}
+
+.icon.tweeter::before {
+    content: '\f099';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tweeter:hover::before {
+    color: rgb(0, 172, 237);
+}
+
+.icon.googlePlus::before {
+    content: '\f2b3';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.googlePlus:hover::before {
+    color: rgb(221, 75, 57);
+}
+
+.icon.linkedIn::before {
+    content: '\f08c';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.linkedIn:hover::before {
+    color: rgb(0, 123, 182);
+}
+
+.icon.instagram::before {
+    content: '\f16d';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.instagram:hover::before {
+    color: rgb(89, 137, 174);
+}
