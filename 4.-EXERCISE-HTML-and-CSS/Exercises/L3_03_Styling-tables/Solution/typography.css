@@ -1,0 +1,38 @@
+html {
+    font: 16px/1.5 Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(221, 221, 221);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(241, 241, 241);
+}
+
+tr:nth-last-child(odd) td {
+    background-color: rgb(241, 241, 241);
+}
+
+tr:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+table,
+td,
+th {
+    border: 1px solid rgb(221, 221, 221);
+}
+
+td,
+th {
+    padding: 10px;
+    width: 33.33%;
+}
