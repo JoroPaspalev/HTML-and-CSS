@@ -1,0 +1,127 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid red;
+}
+
+.flex-item {
+    list-style: none;
+    border: 1px solid green;
+    color: white;
+    font-size: 3em;
+    width: 200px;
+    text-align: center;
+    height: 200px;
+    margin: 20px;
+    border-radius: 50%;
+    background: rgb(24, 90, 157);
+    background: linear-gradient(90deg, rgba(24, 90, 157, 1) 0%, rgba(66, 205, 162, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    padding: 0;
+}
+
+.in {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fflex {
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fflex-item {
+    width: 200px;
+    height: 200px;
+    border: 2px solid pink;
+    color: white;
+    font-size: 30px;
+    background: linear-gradient(90deg, rgba(25, 76, 210, 0.7) 0%, rgb(226, 28, 28));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fflex1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+
+.fflex-item1 {
+    border: 20px solid goldenrod;
+    width: 100px;
+    height: 100px;
+    background: mediumturquoise;
+    background: linear-gradient(90deg, red, purple);
+    font-size: 70px;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    max-width: 90%;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px auto;
+}
+
+.wrapper>* {
+    padding: 10px;
+}
+
+
+/* .header,
+.main,
+.aside,
+footer {
+    border: 1px solid black;
+} */
+
+.header {
+    background-color: coral;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.footer {
+    background-color: darkgoldenrod;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+.aside {
+    flex-basis: 400px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.aside-1 {
+    background-color: cornflowerblue;
+}
+
+.aside-2 {
+    background-color: darkorange;
+}

@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@700&display=swap');
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width:600px) {
+    button {
+        display: none;
+    }
+}
+
+.bnt {
+    height: 100px;
+    background-color: rgba(215, 225, 233, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.bnt-title {
+    font-size: 60px;
+    font-weight: 900;
+    color: rgba(215, 225, 233, 0.5);
+    mix-blend-mode: overlay;
+    text-shadow: 0 5px 10px rgb(0, 0, 0, 0.5)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, sans-serif;
+}
+
+
+/* body {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: rgb(29, 221, 22);
+} */
+
+body {
+    background: url(http:eeee//www.color-hex.com/palettes/26323.png) repeat;
+    margin: 10px;
+}
+
+.fundament {
+    background: url(http://www.color-hex.com/palettes/26323.png) repeat;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px 323px 20px 0;
+    font-size: 55px;
+    margin: 40px;
+    position: relative;
+    display: flex;
+}
+
+article {
+    background: url(http://www.color-hex.com/palettes/26323.png) repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding-left: 20px;
+}
+
+span {
+    font-size: 220px;
+    background-color: rgba(239, 68, 84, 1);
+    width: 200px;
+    height: 200px;
+    line-height: 165px;
+    text-align: center;
+    position: absolute;
+    left: 330px;
+    top: 61px;
+    color: white;
+    font-family: 'Zilla Slab', serif;
+}
+
+h1 {
+    background-color: rgb(78, 211, 95);
+    overflow: hidden;
+    display: inline-block;
+    padding: 10px;
+    font-weight: bold;
+    font-family: arial;
+    color: transparent;
+    font-size: 200px;
+}
+
+.span {
+    background: url(http://www.color-hex.com/palettes/26323.png) -20px -20px repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    display: block;
+}
+
+header>h1 {
+    font-size: 40px;
+}
+
+p {
+    color: rgb(155, 135, 131);
+}
+
+.p-title {
+    font-weight: bold;
+    color: black;
+}
+
+.flex {
+    display: flex;
+    align-items: stretch;
+    position: relative;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.left {
+    flex-grow: 1;
+    box-sizing: border-box;
+    position: relative;
+    min-width: 300px;
+    min-height: 50px;
+}
+
+.right {
+    flex-basis: 50%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgb(3, 168, 124);
+    color: white;
+    border: none;
+    padding: 10px 60px;
+    border-radius: 4px;
+    font-weight: bold;
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    overflow: hidden;
+}
+
+button:hover {
+    background-color: teal;
+}
+
+.flex::after {
+    content: '__________________________';
+    color: rgb(163, 163, 163);
+    font-weight: 500;
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+    transform: translate(-50%, -50%);
+}
+
+hr {
+    width: 200px;
+    text-align: center;
+}
+
+
+/* * {
+    border: 1px solid green;
+} */

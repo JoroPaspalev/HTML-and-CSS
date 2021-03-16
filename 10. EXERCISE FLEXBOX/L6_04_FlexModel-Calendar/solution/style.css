@@ -1,0 +1,43 @@
+body {
+    border: 1px solid black;
+}
+
+.flex {
+    display: flex;
+    background-color: red;
+    width: 80%;
+    margin: auto;
+    align-content: stretch;
+}
+
+.left {
+    flex-basis: 80%;
+}
+
+.right {
+    flex-basis: 20%;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    border: 1px solid black;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+ul>li:nth-child(1) {
+    flex-basis: 100%;
+}
+
+li {
+    text-align: center;
+    padding: 20px 40px 100px 40px;
+    align-items: stretch;
+    flex: 1 1 0;
+    border: 1px solid black;
+}

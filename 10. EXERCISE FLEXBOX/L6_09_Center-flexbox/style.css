@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    width: 350px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: -1px -2px 31px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px -2px 31px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px -2px 31px -7px rgba(0, 0, 0, 0.75);
+    border-radius: 6px;
+}

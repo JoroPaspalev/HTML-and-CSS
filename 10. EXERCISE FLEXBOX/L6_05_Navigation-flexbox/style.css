@@ -1,0 +1,41 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    width: 1000px;
+    margin: 50px auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+a {
+    color: rgb(0, 153, 0);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.title {
+    text-transforM: uppercase;
+    font-family: monospace, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-top: 35px;
+}
