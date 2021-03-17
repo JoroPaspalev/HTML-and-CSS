@@ -1,0 +1,51 @@
+@media all and (max-width:950px) {
+    .header-content-input-data-btn {
+        margin: 20px;
+        height: 70%;
+    }
+    .fa-chevron-right {
+        position: absolute;
+        left: 83%;
+        top: 1.26em;
+        font-size: 24px;
+        color: white;
+    }
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .main-article-first {
+        max-width: 100%;
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .main-article-first-title {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+    }
+    .main-article-first-subtitle {
+        font-size: 1.25rem;
+    }
+    .main-article-media {
+        width: 70%;
+    }
+    .reverse {
+        flex-direction: column-reverse;
+    }
+    .main-article-second {
+        max-width: 100%;
+        text-align: center;
+    }
+    .faq-title {
+        font-size: 2.5rem !important;
+    }
+    .faq-content-text {
+        font-size: 1.25rem !important;
+    }
+    .faq-subtitle {
+        font-size: 1.25rem;
+        max-width: 450px;
+        margin: 30px auto 20px auto;
+    }
+}

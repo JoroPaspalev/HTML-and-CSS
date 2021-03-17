@@ -1,0 +1,36 @@
+.faq {
+    max-width: 1100px;
+    margin: 0 auto 40px auto;
+    padding: 20px;
+}
+
+.faq-wrapper {
+    text-align: center;
+    color: white;
+}
+
+.faq-title {
+    font-size: 3.125rem;
+    color: white;
+}
+
+.faq-content {
+    width: 75%;
+    margin: auto;
+    padding: 7px 17px;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.faq-content-text {
+    font-size: 27px;
+    margin: 15px;
+}
+
+.faq-subtitle {
+    font-size: 1.25rem;
+    margin-top: 40px;
+}
