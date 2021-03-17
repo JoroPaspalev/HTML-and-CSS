@@ -1,0 +1,104 @@
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {}
+
+form {
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 1px;
+    box-shadow: 0 0 3px 0px black;
+    background-color: rgb(248, 248, 248);
+    display: block;
+    max-width: 45%;
+    margin: 200px auto;
+    padding: 20px;
+    position: relative;
+}
+
+.login {
+    background-color: rgb(248, 248, 248);
+    border: 1px solid rgb(235, 235, 235);
+    box-shadow: 0 0 3px 0px black;
+    padding: 10px 120px 10px 20px;
+    position: absolute;
+    left: -2px;
+    top: -20px;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 6px 12px;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    border-style: none;
+    margin: 10px 10px 20px 10px;
+    font-size: 15px;
+}
+
+.username,
+.password {
+    margin: 25px 10px 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+article>label:nth-child(1) {
+    font-weight: bold;
+}
+
+input {
+    font-size: 22px;
+    border-radius: 3px;
+    border: 1px solid rgb(202, 202, 202);
+    max-width: 90%;
+}
+
+.text {
+    padding-left: 30px;
+    flex-grow: 1;
+}
+
+.fas.fa-user,
+.fas.fa-key {
+    position: relative;
+    left: 23px;
+}
+
+p {
+    margin: 0;
+}
+
+@media screen and (max-width: 955px) {
+    .fas.fa-user,
+    .fas.fa-key {
+        position: relative;
+        top: 24px;
+        left: -67px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .login {
+        padding: 6px 40px 6px 10px;
+    }
+    input {
+        font-size: 15px;
+    }
+    .fas.fa-user,
+    .fas.fa-key {
+        left: -60px;
+        font-size: 14px;
+        padding-bottom: 6px;
+    }
+    label,
+    .login {
+        font-size: 14px;
+    }
+}
